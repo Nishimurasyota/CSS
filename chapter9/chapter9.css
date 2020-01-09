@@ -13,25 +13,50 @@ main{
   height: 500px;
   margin: 50px auto;
 }
-.step-box:last-child{
+.a, .b, .c{
+ float: left;
+ width: 300px;
+ margin-right: 30px;
+ padding: 10px;
+ position: relative;
+ border: 1px solid #eee;
+}
+
+.c{
   margin-right: 0;
 }
 
 .step-img1{
  height: 150px;
- background-image: url(img/fl0w01.png);
+ width: 280px;
+ background-image: url(img/flow01.png);
  background-size: cover;
  background-position: bottom;
 }
 .step-img2{
  height: 150px;
- background-image: url(img/fl0w02.png);
+ width: 280px;
+ background-image: url(img/flow02.png);
  background-size: cover;
  background-position: bottom;
 }
 .step-img3{
  height: 150px;
- background-image: url(img/fl0w03.png);
+ width: 280px;
+ background-image: url(img/flow03.png);
  background-size: cover;
  background-position: bottom;
+}
+
+.step-num{
+ float: left;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-color: #FF9A4B;
+ color: #fff;
+ padding: 3px;
+}
+.title{
+ margin: 15px 0 5px;
 }
